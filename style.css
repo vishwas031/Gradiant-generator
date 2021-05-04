@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #ced05d, #4cb1f0);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+.heading {
+  background: rgba(255, 255, 255, 0.25);
+  color: rgb(0, 0, 0);
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.inputs {
+  margin-bottom: 2rem;
+  background: rgba(255, 246, 246, 0.5);
+  /* color: rgb(255, 255, 255); */
+  padding: 0.4375rem;
+  border-radius: 7px;
+}
+
+.leftcolor {
+  margin-right: 1.875rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.rightcolor {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.randomButton {
+  background: rgba(255, 255, 255, 0.5);
+  /* color: rgb(255, 255, 255); */
+  /* font-weight: 800; */
+  font-weight: 600;
+  padding: 0.625rem;
+  margin-bottom: 5rem;
+  border-radius: 7px;
+}
+
+.output {
+  background: rgba(255, 255, 255, 0.25);
+  /* color: rgb(255, 255, 255); */
+  display: flex;
+  align-items: center;
+  padding: 0.4375rem;
+  margin-bottom: 2rem;
+  border-radius: 2px;
+  font-weight: 525;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+button {
+  background: rgba(255, 255, 255, 0.25);
+  margin-left: 0.9375rem;
+  margin-right: 0.3125rem;
+  border-width: 0.0625rem;
+  border: rgba(255, 255, 255, 0.5);
+  padding: 0.1875rem;
+  border-style: solid;
+}
+
+.randomButton:hover,
+button:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  cursor: pointer;
+}
+
+.leftcolor:hover,
+.rightcolor:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+}
