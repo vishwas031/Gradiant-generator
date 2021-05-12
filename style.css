@@ -32,7 +32,6 @@ body {
 .inputs {
   margin-bottom: 2rem;
   background: rgba(255, 246, 246, 0.5);
-  /* color: rgb(255, 255, 255); */
   padding: 0.4375rem;
   border-radius: 7px;
 }
@@ -48,8 +47,6 @@ body {
 
 .randomButton {
   background: rgba(255, 255, 255, 0.5);
-  /* color: rgb(255, 255, 255); */
-  /* font-weight: 800; */
   font-weight: 600;
   padding: 0.625rem;
   margin-bottom: 5rem;
@@ -58,7 +55,6 @@ body {
 
 .output {
   background: rgba(255, 255, 255, 0.25);
-  /* color: rgb(255, 255, 255); */
   display: flex;
   align-items: center;
   padding: 0.4375rem;
