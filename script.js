@@ -16,7 +16,7 @@ copyButton.addEventListener("click", () => {
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
-    // alert('Gradient Code Copied');
+    
 });
 
 
@@ -29,10 +29,7 @@ leftcolor.addEventListener("change",(event) =>
     console.log(lcolor);
 });
 
-// copyButton.addEventListener("click",() =>
-// {
-//     copyToClipboard(copyButton.target.value);
-// })
+
 
 rightcolor.addEventListener("change",(event) =>
 {
@@ -68,34 +65,3 @@ button.addEventListener("click",() =>
     rightcolor.value = rcolor;
     changeBackground();
 });
-
-// function copy() {
-//     var copyText = document.querySelector(output);
-//     copyText.select();
-//     document.execCommand("copy");
-//   }
-  
-// copyButton.addEventListener("click", () =>
-// {copyCSS()
-// });
-
-
-
-// function copyToClipboard(element) {
-//     var $temp = $("<input>");
-//     $("body").append($temp);
-//     $temp.val($(element).text()).select();
-//     document.execCommand("copy");
-//     $temp.remove();
-//   }
-  
-
-// function copyCSS() = {
-    
-//     var copyText = document.getElementById("CSScode");
-  
-//     copyText.select();
-//     copyText.setSelectionRange(0, 99999); 
-
-//     document.execCommand("copy");
-//   }
